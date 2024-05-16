@@ -9,6 +9,6 @@
 1. Run the simulator using `docker-compose up`
 2. Open http://localhost:6901/ in your browser
 3. Username and password is `headless`
-4. Run the `sudo su ~/scripts/prep-env.sh` command to install configure environment similer to CAKD exam
+4. Run the `sudo sh ~/scripts/prep-env.sh` command to install configure environment similer to CAKD exam
 
 ## [CAKD Guidelines](./scripts/ckad-guidelines.md)
