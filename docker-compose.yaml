@@ -1,0 +1,13 @@
+services:
+  simulator:
+    image: accetto/ubuntu-vnc-xfce-firefox-g3
+    ports:
+      - 6901:6901
+    networks:
+      - kind
+    volumes:
+      - ./scripts:/home/headless/scripts
+      - ~/.kube:/home/headless/.kube
+networks:
+  kind:
+    external: true
